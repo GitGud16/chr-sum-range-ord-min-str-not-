@@ -1,12 +1,11 @@
 <script>
+	import { goto } from '$app/navigation';
 	import Meteors from '$lib/animation/Meteors.svelte';
+	import Home from './Home/+page.svelte';
+	import { onMount } from 'svelte';
 </script>
 
-<div class="flex flex-col min-h-screen place-items-center justify-start pt-10 ">
+<Home/>
 
-    <img src="/TerraTales.png" class="w-fit h-fit" alt="TerraTales Logo">
-	<Meteors number={100} text="TerraTales" />
-
-</div>
 
 
