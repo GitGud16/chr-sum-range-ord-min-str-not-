@@ -21,7 +21,7 @@
       $: changeMeteors(number);
   </script>
   <div
-  class="relative flex h-fit w-full  items-center justify-center overflow-hidden rounded-lg  bg-gray-900 p-20 md:shadow-xl"
+  class="relative flex h-fit w-full  items-center justify-center overflow-hidden rounded-lg  bg-secondaryColor p-14 md:shadow-xl"
 >
   {#each meteorStyles as style, idx}
     <span
@@ -38,8 +38,8 @@
     </span>
   {/each}
   <p
-  class="z-10 w-[70%] mx-auto text-center text-5xl tracking-[2em] font-semibold text-fill-transparent bg-clip-text"
-  style="background-image: url('/TerraTales.png'); background-size: 150%; background-position: 60% 40%; -webkit-background-clip: text;"
+  class="z-10 w-[70%] mx-auto text-center text-5xl tracking-[1.5em] font-semibold text-fill-transparent bg-clip-text"
+  style="background-image: url('/TerraTales.png'); background-size: 160%; background-position: 60% 50%; -webkit-background-clip: text;"
 >
   {text}
 </p>
