@@ -215,7 +215,7 @@
 
 	.custom-button {
 		padding: 10px 20px;
-		background-color: #4a4a4a; /* Consistent color for all buttons */
+		background-color: #168ee2; /* Consistent color for all buttons */
 		color: white;
 		border: none;
 		border-radius: 8px;

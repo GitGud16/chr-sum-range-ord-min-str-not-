@@ -124,7 +124,7 @@
 
     .custom-button {
         padding: 10px 20px;
-        background-color: #4a4a4a;
+        background-color: #168ee2;
         color: white;
         border: none;
         border-radius: 8px;
