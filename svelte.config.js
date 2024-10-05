@@ -5,13 +5,8 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 const config = {
     preprocess: vitePreprocess(),
     kit: {
-        adapter: adapter(),
-        vite: {
-            ssr: {
-                noExternal: ['@turf/turf'],
-            },
-        },
-    },
+        adapter: adapter()
+    }
 };
 
 export default config;
