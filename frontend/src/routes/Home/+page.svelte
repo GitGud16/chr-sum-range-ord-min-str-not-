@@ -1,6 +1,7 @@
 <script>
-	import { goto } from '$app/navigation';
+	//Ahmed Alsaggaf was here 
 	import Meteors from '$lib/animation/Meteors.svelte';
+	import { goto } from '$app/navigation';
 
 
 </script>

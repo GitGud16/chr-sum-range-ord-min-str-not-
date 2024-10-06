@@ -46,7 +46,6 @@
 			currentMarkers.push(marker);
 		});
 	}
-
 	function togglePlay() {
 		isPlaying = !isPlaying;
 		if (isPlaying) {
